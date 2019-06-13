@@ -1,0 +1,242 @@
+html, body{
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 14px;
+  color: black;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  background-color: darkblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+}
+.box{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.box img{
+  width: 100%;
+}
+
+h1{
+  font-size: 200px;
+}
+
+.box .text{
+    position: absolute;
+    z-index: 800;
+    margin-left: 60px;
+    left: 0;
+    right: 70px;
+    top: -10%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: auto; /* Set the width of the positioned div */
+}
+.box .text h2{
+    position: absolute;
+    z-index: 800;
+    margin-left: 40px;
+    left: 0;
+    right: 30px;
+    top: 60%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: auto; /* Set the width of the positioned div */
+}
+
+
+.section-navigation{
+  color: lightgrey;
+  background-color: darkblue;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  height: 25px;
+
+}
+
+.section-content{
+  background: rgb(1,5,6);
+  background: linear-gradient(90deg, rgba(1,5,6,1) 0%, rgba(0,69,149,1) 0%, rgba(157,0,0,1) 99%);
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid lightgrey;
+}
+
+.section-content img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 160px;
+  margin: 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border: 1px solid grey;
+  border-radius: 4px;
+
+
+}
+
+.section-content img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
+
+.section-content p{
+  color: lightgrey;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.section-content div{
+  height: 300px;
+  width: 200px;
+
+}
+.section-footer{
+  color: lightgrey;
+  background-color: #34495e;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.section-footer h3{
+
+}
+
+}
+
+  /*----- LOGIN -----*/
+
+}
+
+.login-inpup{
+  position: absolute;
+}
+.login{
+  max-width: 300px;
+  padding: 40px;
+  background-color: black;
+  text-align: center;
+  background: #34495e;
+}
+.login h4{
+  font-style: italic;
+  text-align: center;
+  background-color: #34495e;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 20px;
+}
+.login input[type = "text"],.login input[type = "password"]{
+  border:0;
+  background: black;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.login input[type = "text"]:focus,.login input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.login input[type = "submit"]{
+  border:0;
+  background-color: black;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.login input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+/* extra small */
+@media only screen and (max-width: 576px) {
+  .box img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* small */
+@media only screen and (max-width: 768px) and (min-width: 577px){
+  .box img{
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+/* medium */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .box img{
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+/* large */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+  .box img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .box img{
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+
+
+
+/****************** Style for everything ********************/
